@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thought_bubble.png" translatesAutoresizingMaskIntoConstraints="NO" id="F9c-mZ-dOT">
+                                <rect key="frame" x="20" y="133" width="280" height="301"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="GLY-W4-PmZ"/>
+                                    <constraint firstAttribute="height" constant="301" id="NT4-Db-0zX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decision Maker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0r-o5-40c">
+                                <rect key="frame" x="38" y="40" width="244.5" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="DFk-KC-5YP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71074713767838127" green="0.89276035281056698" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="F9c-mZ-dOT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0qC-gK-FdT"/>
+                            <constraint firstItem="H0r-o5-40c" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="20" id="OeO-my-vOe"/>
+                            <constraint firstItem="H0r-o5-40c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xb1-WW-y3M"/>
+                            <constraint firstItem="F9c-mZ-dOT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zla-jT-lde"/>
+                            <constraint firstItem="H0r-o5-40c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="o8w-3F-tic"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="o8w-3F-tic"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="thought_bubble.png" width="716" height="652"/>
+    </resources>
+</document>
