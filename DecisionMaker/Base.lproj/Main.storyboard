@@ -38,6 +38,10 @@
                                 <edgeInsets key="layoutMargins" top="8" left="20" bottom="8" right="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="lp4-la-zYI"/>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="sV3-2a-vdD"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="m9g-Cj-sBw">
                                 <rect key="frame" x="16" y="169" width="378" height="30"/>
@@ -48,6 +52,10 @@
                                 <edgeInsets key="layoutMargins" top="8" left="20" bottom="8" right="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="UOq-hJ-ZI2"/>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="fBV-a7-Rm9"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="q8w-A4-8kv">
                                 <rect key="frame" x="16" y="219" width="378" height="30"/>
@@ -64,6 +72,10 @@
                                         <exclude reference="jNx-lJ-omY"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="Jee-mf-L7O"/>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="dCk-vw-Ne7"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kmD-k8-gxq">
                                 <rect key="frame" x="16" y="269" width="378" height="30"/>
@@ -74,6 +86,10 @@
                                 <edgeInsets key="layoutMargins" top="8" left="20" bottom="8" right="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="7Yi-Ad-UI2"/>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Vyd-1A-pEP"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="oC3-Xv-XjX">
                                 <rect key="frame" x="16" y="319" width="378" height="30"/>
@@ -84,20 +100,25 @@
                                 <edgeInsets key="layoutMargins" top="8" left="20" bottom="8" right="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="touchDown" id="48N-th-Ssg"/>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="ZzZ-HW-9Pi"/>
+                                    <action selector="fieldUpdate:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="q1K-ZJ-qtS"/>
+                                </connections>
                             </textField>
-                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I20-x8-Qxh">
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I20-x8-Qxh" customClass="decideButton" customModule="DecisionMaker" customModuleProvider="target">
                                 <rect key="frame" x="112" y="389" width="97" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="19U-d9-5Bx"/>
                                     <constraint firstAttribute="height" constant="30" id="zn5-Cu-FtK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="DECIDE">
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
+                                <state key="normal" title="FLIP COIN">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="decide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="afs-1s-OPj"/>
+                                    <action selector="decide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6Y-Hm-1rd"/>
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="RM3-h9-4Lh">
@@ -197,6 +218,7 @@
                     </view>
                     <connections>
                         <outlet property="HideKeyboardHintText" destination="sNh-Gh-mn9" id="KJj-kZ-Vyu"/>
+                        <outlet property="decide" destination="I20-x8-Qxh" id="h2L-KA-TJm"/>
                         <outlet property="option1" destination="AV2-wz-Y7r" id="qct-sS-skP"/>
                         <outlet property="option2" destination="m9g-Cj-sBw" id="d7M-Xk-1jV"/>
                         <outlet property="option3" destination="q8w-A4-8kv" id="Y9R-f4-mZC"/>

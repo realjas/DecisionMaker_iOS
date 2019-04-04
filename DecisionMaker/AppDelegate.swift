@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DecisionMaker
 //
-//  Created by realJAS on 6/19/16.
+//  Created by JAS on 6/19/16.
 //  Copyright © 2016 decisionmakerproject. All rights reserved.
 //
 

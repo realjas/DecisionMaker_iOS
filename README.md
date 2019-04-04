@@ -8,12 +8,25 @@ After hanging out with my family and us struggling to come do a decision as to w
 
 TO DO:
 
-Redesign entire app.
+Fix the disaster that is the UI, currently. :)
 
-Correct result font size to be dynamic
+Redesign entire app adding the now-required 1024x1024 icon.
 
-Correct result "bubble" scaling to fit/look correctly on screen in both potrait and landscape
+Correct result font size to be dynamic.
 
-Update Icon with redesign and add the required update of a 1024x1024 version.
- 
-Make decide button dynamic between coin flip when there are no entries in field to "decide" when there are more than one fields with values.
+Correct result "bubble" scaling to fit/look correctly on screen in both potrait and landscape.
+
+Make dynamic button more efficient merge for loops into a function that provides an array as a return.
+
+Add coin flipping sound effect when flipping a coin vs the "hmm" when deciding on options.
+
+
+DONE:
+
+Added comments to make the code easier to understand.
+
+Made a custom button subclass of UIButton to add custom behaviors.
+
+Update App from Swift 3 to Swift 5.
+
+Make decide button dynamic between "FLIP COIN" when there are no entries in field to "DECIDE" when there are more than one fields with values.

@@ -16,6 +16,7 @@
 		9D11BA1F1D17424200802885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D11BA1D1D17424200802885 /* LaunchScreen.storyboard */; };
 		9D59C29D1D2491BF00AA0701 /* Decision_Maker_Answer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D59C29C1D2491BF00AA0701 /* Decision_Maker_Answer.png */; };
 		9DB7A9A41D17B03A007810EF /* thought_bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A9A31D17B03A007810EF /* thought_bubble.png */; };
+		9DCB9C0E225687D300CEB91B /* decideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB9C0D225687D300CEB91B /* decideButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9D11BA201D17424200802885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D59C29C1D2491BF00AA0701 /* Decision_Maker_Answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Decision_Maker_Answer.png; sourceTree = "<group>"; };
 		9DB7A9A31D17B03A007810EF /* thought_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thought_bubble.png; sourceTree = "<group>"; };
+		9DCB9C0D225687D300CEB91B /* decideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decideButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		9D11BA131D17424200802885 /* DecisionMaker */ = {
 			isa = PBXGroup;
 			children = (
+				9DCB9C0A2256869500CEB91B /* subClasses */,
 				9D59C29C1D2491BF00AA0701 /* Decision_Maker_Answer.png */,
 				9D06BFA61D18B961000C095E /* Sounds */,
 				9D11BA141D17424200802885 /* AppDelegate.swift */,
@@ -82,6 +85,14 @@
 				9D11BA201D17424200802885 /* Info.plist */,
 			);
 			path = DecisionMaker;
+			sourceTree = "<group>";
+		};
+		9DCB9C0A2256869500CEB91B /* subClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9DCB9C0D225687D300CEB91B /* decideButton.swift */,
+			);
+			name = subClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D11BA171D17424200802885 /* ViewController.swift in Sources */,
+				9DCB9C0E225687D300CEB91B /* decideButton.swift in Sources */,
 				9D11BA151D17424200802885 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
