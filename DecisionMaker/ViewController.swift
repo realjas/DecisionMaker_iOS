@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         return false
     }
     
-    func dismissKeyboard() {
+    @objc func dismissKeyboard() {
         //Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
         
@@ -78,7 +78,7 @@ class ViewController: UIViewController {
         self.overlay.backgroundColor = UIColor(white: 1, alpha: 0.0)
     }
     
-    func setTimeout(_ timer : Timer) {
+    @objc func setTimeout(_ timer : Timer) {
         self.spinner.alpha = 0.0
         self.spinner.stopAnimating()
         

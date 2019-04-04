@@ -7,6 +7,12 @@ After hanging out with my family and us struggling to come do a decision as to w
 
 
 TO DO:
-Update the design to make it pretty.
 
-Update from Swift 4 to Swift5. 
+Redesign entire app.
+
+Correct result font size to be dynamic
+
+Correct result "bubble" scaling to fit/look correctly on screen in both potrait and landscape
+
+Update Icon with redesign and add the required update of a 1024x1024 version.
+ 
