@@ -106,8 +106,8 @@ class ViewController: UIViewController {
             //self.answer.text = blankChecker[r]
             self.popupAnswer.text = blankChecker[r].uppercased() + "!"
         }else{
-            blankChecker.append("Yes.")
-            blankChecker.append("No.")
+            blankChecker.append("Heads!")
+            blankChecker.append("Tails!")
             let r = Int(arc4random_uniform(UInt32(blankChecker.count)))
             
             self.popupAnswer.text = blankChecker[r]

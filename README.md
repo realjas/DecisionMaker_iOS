@@ -17,5 +17,3 @@ Correct result "bubble" scaling to fit/look correctly on screen in both potrait 
 Update Icon with redesign and add the required update of a 1024x1024 version.
  
 Make decide button dynamic between coin flip when there are no entries in field to "decide" when there are more than one fields with values.
-
-Update "Yes/No" results from coin flip to "Heads/Tails"
