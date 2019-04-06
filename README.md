@@ -20,10 +20,10 @@ Correct result "bubble" scaling to fit/look correctly on screen in both potrait 
 
 Make dynamic button more efficient merge for loops into a function that provides an array as a return.
 
-Add coin flipping sound effect when flipping a coin vs the "hmm" when deciding on options.
-
 
 DONE:
+
+Add coin flipping sound effect when in "FLIP COIN" mode vs "DECIDE" mode.
 
 Added comments to make the code easier to understand.
 
