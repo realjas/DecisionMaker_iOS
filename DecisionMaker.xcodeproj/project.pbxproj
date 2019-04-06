@@ -15,6 +15,7 @@
 		9D11BA1C1D17424200802885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D11BA1B1D17424200802885 /* Assets.xcassets */; };
 		9D11BA1F1D17424200802885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D11BA1D1D17424200802885 /* LaunchScreen.storyboard */; };
 		9D59C29D1D2491BF00AA0701 /* Decision_Maker_Answer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D59C29C1D2491BF00AA0701 /* Decision_Maker_Answer.png */; };
+		9D82B9DA22580EC6000843C2 /* coin toss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D82B9D922580EC6000843C2 /* coin toss.mp3 */; };
 		9DB7A9A41D17B03A007810EF /* thought_bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A9A31D17B03A007810EF /* thought_bubble.png */; };
 		9DCB9C0E225687D300CEB91B /* decideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB9C0D225687D300CEB91B /* decideButton.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		9D11BA1E1D17424200802885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D11BA201D17424200802885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D59C29C1D2491BF00AA0701 /* Decision_Maker_Answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Decision_Maker_Answer.png; sourceTree = "<group>"; };
+		9D82B9D922580EC6000843C2 /* coin toss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "coin toss.mp3"; sourceTree = "<group>"; };
 		9DB7A9A31D17B03A007810EF /* thought_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thought_bubble.png; sourceTree = "<group>"; };
 		9DCB9C0D225687D300CEB91B /* decideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decideButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +50,7 @@
 		9D06BFA61D18B961000C095E /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				9D82B9D922580EC6000843C2 /* coin toss.mp3 */,
 				9D06BFA21D18B67A000C095E /* hmm.mp3 */,
 				9D06BFA31D18B67A000C095E /* cheer.mp3 */,
 			);
@@ -160,6 +163,7 @@
 				9D59C29D1D2491BF00AA0701 /* Decision_Maker_Answer.png in Resources */,
 				9D11BA1C1D17424200802885 /* Assets.xcassets in Resources */,
 				9D11BA1A1D17424200802885 /* Main.storyboard in Resources */,
+				9D82B9DA22580EC6000843C2 /* coin toss.mp3 in Resources */,
 				9D06BFA41D18B67A000C095E /* hmm.mp3 in Resources */,
 				9DB7A9A41D17B03A007810EF /* thought_bubble.png in Resources */,
 			);

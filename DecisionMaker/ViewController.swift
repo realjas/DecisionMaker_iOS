@@ -89,34 +89,9 @@ class ViewController: UIViewController {
         self.popupAnswer.alpha = 1.0
         self.popupAnswerImage.alpha = 1.0
         
-        play("cheer")
+       // play("cheer")
         
-        var optionsArray = [String]()
-        optionsArray = [self.option1.text!,self.option2.text!,self.option3.text!,self.option4.text!,self.option5.text!]
-        var blankChecker = [String]()
-        var pos = 0
-        var txt = ""
-        
-        for i in 0...optionsArray.count-1 {
-            if optionsArray[i] != "" {
-                txt = optionsArray[i]
-                blankChecker.append("")
-                blankChecker[pos] = txt
-                pos += 1
-            }
-        }
-        if pos != 0 {
-            let r = Int(arc4random_uniform(UInt32(blankChecker.count)))
-            //self.answer.text = blankChecker[r]
-            self.popupAnswer.text = blankChecker[r].uppercased() + "!"
-        }else{
-            blankChecker.append("Heads!")
-            blankChecker.append("Tails!")
-            let r = Int(arc4random_uniform(UInt32(blankChecker.count)))
-            
-            self.popupAnswer.text = blankChecker[r]
-            //self.popupAnswer.text = "Seriously?!?!"
-        }
+        parseOptions()
     }
 
     /* Easy audio player setup/function */
@@ -136,11 +111,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func fieldUpdate(_ sender: Any) {
-        print("updated field")
+        var pos = 0
         var optionsArray = [String]()
         optionsArray = [self.option1.text!,self.option2.text!,self.option3.text!,self.option4.text!,self.option5.text!]
         var blankChecker = [String]()
-        var pos = 0
         var txt = ""
         
         for i in 0...optionsArray.count-1 {
@@ -159,4 +133,34 @@ class ViewController: UIViewController {
         }
     }
     
+    func parseOptions() {
+        var pos = 0
+        var optionsArray = [String]()
+        optionsArray = [self.option1.text!,self.option2.text!,self.option3.text!,self.option4.text!,self.option5.text!]
+        var blankChecker = [String]()
+        var txt = ""
+        
+        for i in 0...optionsArray.count-1 {
+            if optionsArray[i] != "" {
+                txt = optionsArray[i]
+                blankChecker.append("")
+                blankChecker[pos] = txt
+                pos += 1
+            }
+        }
+        if pos != 0 {
+            let r = Int(arc4random_uniform(UInt32(blankChecker.count)))
+            //self.answer.text = blankChecker[r]
+            self.popupAnswer.text = blankChecker[r].uppercased() + "!"
+            play("cheer")
+        }else{
+            blankChecker.append("Heads!")
+            blankChecker.append("Tails!")
+            let r = Int(arc4random_uniform(UInt32(blankChecker.count)))
+            
+            self.popupAnswer.text = blankChecker[r]
+            //self.popupAnswer.text = "Seriously?!?!"
+            play("coin toss")
+        }
+    }
 }

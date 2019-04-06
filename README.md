@@ -8,6 +8,8 @@ After hanging out with my family and us struggling to come do a decision as to w
 
 TO DO:
 
+Add an icon of a martini glass or beer in the lower right hand corner that activates "drunk mode".  When tapped no matter what the options you provide are the result is always "DON'T DO IT!\rGO HOME!"
+
 Fix the disaster that is the UI, currently. :)
 
 Redesign entire app adding the now-required 1024x1024 icon.
